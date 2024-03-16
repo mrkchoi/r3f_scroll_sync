@@ -1,8 +1,6 @@
-# React + Vite
+# Sync DOM + WebGL (r3f)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Initialize smooth scroll (w/ scrollable container)
+2. Create WebGL canvas with 1:1 pixel mapping to DOM elements
+2. Pass reference to all dom elements to be replaced by WebGL meshes
+3. Sync position of each mesh using getBoundingClientRect
