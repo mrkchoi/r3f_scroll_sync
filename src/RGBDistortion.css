@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Harmond;
+  src: url('./assets/fonts/Harmond-ExtraBoldExpanded.otf');
+}
+
+/* MAIN */
+.rgbDistortion__main {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Harmond, serif;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+}
+.rgbDistortion__scrollable {
+  width: 100%;
+  /* min-height: 100vh; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  will-change: transform;
+}
+.rgbDistortion__section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rgbDistortion__img {
+  height: 60%;
+  position: absolute;
+  opacity: 0;
+}
+.rgbDistortion__img--1 {
+}
+.rgbDistortion__img--2 {
+}
+.rgbDistortion__img--3 {
+}
+.rgbDistortion__img--4 {
+}
+
+.rgbDistortion__title {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+}
+.rgbDistortion__canvasWrapper {
+}
+.rgbDistortion__canvasWrapper {
+}
+.rgbDistortion__canvasWrapper {
+}
+.rgbDistortion__canvasWrapper {
+}
+
+/* MAIN - END */
+
+/* CANVAS */
+.rgbDistortion__canvasWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
